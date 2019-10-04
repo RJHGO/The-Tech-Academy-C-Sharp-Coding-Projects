@@ -24,7 +24,8 @@ namespace VariablesAndDataTypes_Exercise
             Console.WriteLine();
             //Need Help?
             Console.WriteLine("Do you need help with anything? Please answer " + " True " + " or " + " False");
-            string needHelp = Console.ReadLine();
+            string HelpYou = Console.ReadLine();
+            bool needHelp = Convert.ToBoolean(HelpYou);
             Console.WriteLine();
             //Experiences
             Console.WriteLine("Were there any positive experiences you'd Like to share? Please give specifics.");
@@ -37,7 +38,7 @@ namespace VariablesAndDataTypes_Exercise
             //study hours
             Console.WriteLine("How Many Hours did you study today?");
             string numberHours = Console.ReadLine();
-            int numHours = Convert.ToInt32(numberHours);
+            float numHours = float.Parse(numberHours);
             Console.WriteLine();
             //End 
             Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");
