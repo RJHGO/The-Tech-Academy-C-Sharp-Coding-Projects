@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\bin\Debug\Math_And_Comparison_Operators.exe.config
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\bin\Debug\Math_And_Comparison_Operators.exe
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\bin\Debug\Math_And_Comparison_Operators.pdb
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\obj\Debug\Math_And_Comparison_Operators.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\obj\Debug\Math_And_Comparison_Operators.exe
+C:\Users\lefta\source\repos\Math_And_Comparison_Operators\obj\Debug\Math_And_Comparison_Operators.pdb
