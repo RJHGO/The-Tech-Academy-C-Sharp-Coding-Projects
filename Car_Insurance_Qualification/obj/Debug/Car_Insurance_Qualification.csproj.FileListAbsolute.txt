@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\bin\Debug\Car_Insurance_Qualification.exe.config
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\bin\Debug\Car_Insurance_Qualification.exe
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\bin\Debug\Car_Insurance_Qualification.pdb
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\obj\Debug\Car_Insurance_Qualification.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\obj\Debug\Car_Insurance_Qualification.exe
+C:\Users\lefta\source\repos\Car_Insurance_Qualification\obj\Debug\Car_Insurance_Qualification.pdb
