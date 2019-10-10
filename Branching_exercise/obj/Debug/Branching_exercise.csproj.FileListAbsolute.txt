@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Branching_exercise\bin\Debug\Branching_exercise.exe.config
+C:\Users\lefta\source\repos\Branching_exercise\bin\Debug\Branching_exercise.exe
+C:\Users\lefta\source\repos\Branching_exercise\bin\Debug\Branching_exercise.pdb
+C:\Users\lefta\source\repos\Branching_exercise\obj\Debug\Branching_exercise.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Branching_exercise\obj\Debug\Branching_exercise.exe
+C:\Users\lefta\source\repos\Branching_exercise\obj\Debug\Branching_exercise.pdb
