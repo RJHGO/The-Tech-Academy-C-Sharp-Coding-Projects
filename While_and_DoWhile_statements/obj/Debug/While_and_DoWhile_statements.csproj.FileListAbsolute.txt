@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\bin\Debug\While_and_DoWhile_statements.exe.config
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\bin\Debug\While_and_DoWhile_statements.exe
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\bin\Debug\While_and_DoWhile_statements.pdb
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\obj\Debug\While_and_DoWhile_statements.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\obj\Debug\While_and_DoWhile_statements.exe
+C:\Users\lefta\source\repos\While_and_DoWhile_statements\obj\Debug\While_and_DoWhile_statements.pdb
