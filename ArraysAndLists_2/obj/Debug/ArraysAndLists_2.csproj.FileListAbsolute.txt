@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\ArraysAndLists_2\bin\Debug\ArraysAndLists_2.exe.config
+C:\Users\lefta\source\repos\ArraysAndLists_2\bin\Debug\ArraysAndLists_2.exe
+C:\Users\lefta\source\repos\ArraysAndLists_2\bin\Debug\ArraysAndLists_2.pdb
+C:\Users\lefta\source\repos\ArraysAndLists_2\obj\Debug\ArraysAndLists_2.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\ArraysAndLists_2\obj\Debug\ArraysAndLists_2.exe
+C:\Users\lefta\source\repos\ArraysAndLists_2\obj\Debug\ArraysAndLists_2.pdb
