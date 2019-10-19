@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Iteration_Exercise\bin\Debug\Iteration_Exercise.exe.config
+C:\Users\lefta\source\repos\Iteration_Exercise\bin\Debug\Iteration_Exercise.exe
+C:\Users\lefta\source\repos\Iteration_Exercise\bin\Debug\Iteration_Exercise.pdb
+C:\Users\lefta\source\repos\Iteration_Exercise\obj\Debug\Iteration_Exercise.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Iteration_Exercise\obj\Debug\Iteration_Exercise.exe
+C:\Users\lefta\source\repos\Iteration_Exercise\obj\Debug\Iteration_Exercise.pdb
