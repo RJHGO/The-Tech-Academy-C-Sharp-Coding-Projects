@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\bin\Debug\Exception_Handling_Exercise.exe.config
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\bin\Debug\Exception_Handling_Exercise.exe
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\bin\Debug\Exception_Handling_Exercise.pdb
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\obj\Debug\Exception_Handling_Exercise.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\obj\Debug\Exception_Handling_Exercise.exe
+C:\Users\lefta\source\repos\Exception_Handling_Exercise\obj\Debug\Exception_Handling_Exercise.pdb
