@@ -8,25 +8,25 @@ namespace MethodsExercise
 {
     class DoMath
     {
-        public static int MathOp1(int UserNum)
+        public int MathOp1(int UserNum)
         {
             int Result1;
             Result1 = UserNum + 10;
             return Result1;
         }
-        public static decimal MathOp1(decimal UserNum1)
+        public int MathOp1(decimal UserNum1)
         {
             decimal Result2;
             Result2 = UserNum1 / 2;
-            return Result2;
+            int Results = Convert.ToInt32(Result2);
+            return Results;
         }
-        public static string MathOp1(string UserNum2)
+        public int MathOp1(string UserNum2)
         {
-            int tBy = 5;
-            UserNum2 = Console.ReadLine();
-            int UserCon = int.Parse(UserNum2);
-            int Eql = UserCon * tBy;
-            return Eql.ToString();
+            int mainNum = 5;
+            int UserIn = int.Parse(UserNum2);
+            int equals = UserIn * mainNum;
+            return equals;
             
             
         }
