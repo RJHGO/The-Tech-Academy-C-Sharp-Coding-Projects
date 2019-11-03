@@ -14,20 +14,23 @@ namespace MethodsExercise
             Result1 = UserNum + 10;
             return Result1;
         }
-        public static double MathOp1(double UserNum1)
+        public static decimal MathOp1(decimal UserNum1)
         {
-            double Result2;
+            decimal Result2;
             Result2 = UserNum1 / 2;
             return Result2;
         }
-        public static uint MathOp1( uint UserNum2)
+        public static string MathOp1(string UserNum2)
         {
-            string Result3 = "5";
-            uint parsedResult3;
-            uint.TryParse(Result3, out parsedResult3);
-            uint Display = parsedResult3 * UserNum2;
-            return Display;
+            int tBy = 5;
+            UserNum2 = Console.ReadLine();
+            int UserCon = int.Parse(UserNum2);
+            int Eql = UserCon * tBy;
+            return Eql.ToString();
+            
+            
         }
 
     }
+
 }
