@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Exercise_Class_Methods\bin\Debug\Exercise_Class_Methods.exe.config
+C:\Users\lefta\source\repos\Exercise_Class_Methods\bin\Debug\Exercise_Class_Methods.exe
+C:\Users\lefta\source\repos\Exercise_Class_Methods\bin\Debug\Exercise_Class_Methods.pdb
+C:\Users\lefta\source\repos\Exercise_Class_Methods\obj\Debug\Exercise_Class_Methods.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Exercise_Class_Methods\obj\Debug\Exercise_Class_Methods.exe
+C:\Users\lefta\source\repos\Exercise_Class_Methods\obj\Debug\Exercise_Class_Methods.pdb
