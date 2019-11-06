@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Divide_by_2\obj\Debug\Divide_by_2.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Divide_by_2\bin\Debug\Divide_by_2.exe.config
+C:\Users\lefta\source\repos\Divide_by_2\bin\Debug\Divide_by_2.exe
+C:\Users\lefta\source\repos\Divide_by_2\bin\Debug\Divide_by_2.pdb
+C:\Users\lefta\source\repos\Divide_by_2\obj\Debug\Divide_by_2.exe
+C:\Users\lefta\source\repos\Divide_by_2\obj\Debug\Divide_by_2.pdb
