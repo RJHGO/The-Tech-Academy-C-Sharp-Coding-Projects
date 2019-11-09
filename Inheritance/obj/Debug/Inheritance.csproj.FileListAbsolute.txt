@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\lefta\source\repos\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\lefta\source\repos\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\lefta\source\repos\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\lefta\source\repos\Inheritance\obj\Debug\Inheritance.pdb
