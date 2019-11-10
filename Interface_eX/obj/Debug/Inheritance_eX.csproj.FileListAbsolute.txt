@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Inheritance_eX\bin\Debug\Inheritance_eX.exe.config
+C:\Users\lefta\source\repos\Inheritance_eX\bin\Debug\Inheritance_eX.exe
+C:\Users\lefta\source\repos\Inheritance_eX\bin\Debug\Inheritance_eX.pdb
+C:\Users\lefta\source\repos\Inheritance_eX\obj\Debug\Inheritance_eX.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Inheritance_eX\obj\Debug\Inheritance_eX.exe
+C:\Users\lefta\source\repos\Inheritance_eX\obj\Debug\Inheritance_eX.pdb
