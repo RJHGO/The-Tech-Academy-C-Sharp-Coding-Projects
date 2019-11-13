@@ -8,7 +8,6 @@ namespace Inheritance_eX
 {
     interface IQuittable
     {
-        void Quit(Person person);
-        
+        void Quit();    
     }
 }

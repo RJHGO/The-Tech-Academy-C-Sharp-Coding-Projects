@@ -11,17 +11,12 @@ namespace Inheritance_eX
         static void Main(string[] args)
         {
 
-            Person person = new Employee();
-            person.FirstName = "Sample";
-            person.LastName = "Student";
-            person.Quit();
+            IQuittable iquittable = new Employee();
+            //person.FirstName = "Sample";
+            //person.LastName = "Student";
+            iquittable.Quit();
             //Person.SayName();
             Console.ReadLine();
-
-            
-            
-
-
            
         }
     }

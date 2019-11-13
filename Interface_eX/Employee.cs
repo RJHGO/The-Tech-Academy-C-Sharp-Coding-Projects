@@ -9,9 +9,9 @@ namespace Inheritance_eX
     class Employee : Person, IQuittable
     {
 
-        public void Quit(Person person)
+        public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hello");
         }
     }
 }
