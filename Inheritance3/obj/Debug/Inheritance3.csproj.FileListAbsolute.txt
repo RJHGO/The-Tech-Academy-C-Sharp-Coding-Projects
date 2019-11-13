@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Inheritance3\bin\Debug\Inheritance3.exe.config
+C:\Users\lefta\source\repos\Inheritance3\bin\Debug\Inheritance3.exe
+C:\Users\lefta\source\repos\Inheritance3\bin\Debug\Inheritance3.pdb
+C:\Users\lefta\source\repos\Inheritance3\obj\Debug\Inheritance3.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Inheritance3\obj\Debug\Inheritance3.exe
+C:\Users\lefta\source\repos\Inheritance3\obj\Debug\Inheritance3.pdb
