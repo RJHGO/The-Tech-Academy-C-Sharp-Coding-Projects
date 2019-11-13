@@ -1,0 +1,6 @@
+C:\Users\lefta\source\repos\Exercise3\obj\Debug\Exercise3.csprojAssemblyReference.cache
+C:\Users\lefta\source\repos\Exercise3\bin\Debug\Exercise3.exe.config
+C:\Users\lefta\source\repos\Exercise3\bin\Debug\Exercise3.exe
+C:\Users\lefta\source\repos\Exercise3\bin\Debug\Exercise3.pdb
+C:\Users\lefta\source\repos\Exercise3\obj\Debug\Exercise3.exe
+C:\Users\lefta\source\repos\Exercise3\obj\Debug\Exercise3.pdb
