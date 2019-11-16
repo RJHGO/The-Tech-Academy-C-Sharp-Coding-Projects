@@ -1,0 +1,6 @@
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\bin\Debug\Overload Operator.exe.config
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\bin\Debug\Overload Operator.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\bin\Debug\Overload Operator.pdb
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\obj\Debug\Overload Operator.csprojAssemblyReference.cache
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\obj\Debug\Overload Operator.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Overload Operator\obj\Debug\Overload Operator.pdb
