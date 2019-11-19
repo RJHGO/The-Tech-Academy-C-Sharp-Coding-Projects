@@ -1,0 +1,6 @@
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\bin\Debug\enums_Exercise.exe.config
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\bin\Debug\enums_Exercise.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\bin\Debug\enums_Exercise.pdb
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\obj\Debug\enums_Exercise.csprojAssemblyReference.cache
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\obj\Debug\enums_Exercise.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\enums_Exercise\obj\Debug\enums_Exercise.pdb
