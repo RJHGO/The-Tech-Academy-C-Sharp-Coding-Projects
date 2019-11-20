@@ -1,0 +1,6 @@
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\bin\Debug\Struct_Exercise.exe.config
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\bin\Debug\Struct_Exercise.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\bin\Debug\Struct_Exercise.pdb
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\obj\Debug\Struct_Exercise.csprojAssemblyReference.cache
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\obj\Debug\Struct_Exercise.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\Struct_Exercise\obj\Debug\Struct_Exercise.pdb
