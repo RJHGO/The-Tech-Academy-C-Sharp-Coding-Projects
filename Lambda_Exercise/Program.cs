@@ -29,23 +29,37 @@ namespace Lambda_Exercise
             new Employee { FirstName = "Alan", LastName = "Holdsworth", EmployeeId = 115 },
             new Employee { FirstName = "Nuno", LastName = "Bettencourt", EmployeeId = 144 },
             new Employee { FirstName = "Steve", LastName = "Stevens", EmployeeId = 11 },
-            new Employee { FirstName = "Jerry", LastName = "Springer", EmployeeId = 33 },
+            new Employee { FirstName = "Jerry", LastName = "Springer", EmployeeId = 3 },
         };
-            foreach (Employee Employee in employees)
-            {
-                if (Employee.FirstName == "Joe")
-                {
-                    Console.WriteLine(Employee.FirstName, Employee.LastName, Employee.EmployeeId);
+            //foreach (Employee Employee in employees)
+            //{
+            //    if (Employee.FirstName == "Joe")
+            //    {
+            //        Console.WriteLine(Employee.FirstName, Employee.LastName, Employee.EmployeeId);
                    
-                }
+            //    }
 
+            //}
+            //Console.ReadLine();
+
+
+            List<Employee> employee = employees.Where(x => x.FirstName == "Joe").ToList();
+            foreach (Employee Emp1 in employees)
+            {
+                if(Emp1.FirstName == "Joe")
+                Console.WriteLine(Emp1.FirstName);                
             }
             Console.ReadLine();
 
-            //Employee employee = employees.Find(x => x.EmployeeId > 5) ;
-            //Console.WriteLine("FirstName = {0}, LastName = {1}, EmployeeId = {2}", employee.FirstName, employee.LastName, employee.EmployeeId);
+            //List<Employee> employee = employees.Where(x => x.EmployeeId > 5).ToList() ;
+            //foreach(Employee Emp in employees )
+            //{
+            //    if (Emp.EmployeeId > 5)
+            //    {
+            //        Console.WriteLine("FirstName = {0}, LastName = {1}, EmployeeId = {2}", Emp.FirstName, Emp.LastName, Emp.EmployeeId);
+            //    }
+            //}
             //Console.ReadLine();
-
 
         }       
     }
