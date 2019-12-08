@@ -1,0 +1,6 @@
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\bin\Debug\dates_n_Time.exe.config
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\bin\Debug\dates_n_Time.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\bin\Debug\dates_n_Time.pdb
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\obj\Debug\dates_n_Time.csprojAssemblyReference.cache
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\obj\Debug\dates_n_Time.exe
+C:\Users\lefta\Desktop\The-Tech-Academy-C-Sharp-Coding-Projects\dates_n_Time\obj\Debug\dates_n_Time.pdb
