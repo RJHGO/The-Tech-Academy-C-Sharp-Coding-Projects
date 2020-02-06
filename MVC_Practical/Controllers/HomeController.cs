@@ -20,11 +20,10 @@ namespace MVC_Practical.Controllers
 
 
         [HttpPost]
-        public ActionResult InsuranceQuote(string firstName, string lastName, string emailAddress, string dateOfBirth,
-            string carYear, string carMake, string carModel, string Dui, string speedingTickets, string coverage)
+        public ActionResult InsuranceQuote(string firstName, string lastName, string emailAddress, DateTime dateOfBirth,
+            int carYear, string carMake, string carModel, string Dui, int speedingTickets, string coverage, int newQuote = 1)
         {
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) || string.IsNullOrEmpty(dateOfBirth) ||
-                string.IsNullOrEmpty(carYear) || string.IsNullOrEmpty(carMake) || string.IsNullOrEmpty(carModel) || string.IsNullOrEmpty(Dui) || string.IsNullOrEmpty(speedingTickets) || string.IsNullOrEmpty(coverage))
+            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) || string.IsNullOrEmpty(carMake) || string.IsNullOrEmpty(carModel) || string.IsNullOrEmpty(Dui) || string.IsNullOrEmpty(coverage))
             {
                 return View("~/Views/Shared/Error.cshtml");
             }
@@ -36,6 +35,62 @@ namespace MVC_Practical.Controllers
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
+                    //quote.Id = Convert.ToInt32(reader["Id"]);
+                    // quote.NewQuote = Convert.ToInt32(reader["NewQuote"]);
+                    //new List<NewInsuranceQuote>().Add(quote);
+
+                    newQuote = 50;
+                    var Now = DateTime.Today;
+                    var UserAge = Now.Year - dateOfBirth.Year;
+                    if (dateOfBirth > Now.AddYears(-25))
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    else if (dateOfBirth > Now.AddYears(-18))
+                    {
+                        newQuote = newQuote + 100;
+                    }
+                    else if (dateOfBirth > Now.AddYears(-100))
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    if (carYear < 2000)
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    else if (carYear > 2015)
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    if (carMake == "Porche")
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    if (carMake == "Porche" && carModel == "911 Carrera")
+                    {
+                        newQuote = newQuote + 25;
+                    }
+                    if (speedingTickets > 0)
+                    {
+                        newQuote = newQuote + 10 * speedingTickets;
+                    }
+                    if (Dui == "yes")
+                    {
+                        newQuote = (newQuote + (newQuote * 25 / 100));
+                    }
+                    else
+                    {
+                        newQuote = newQuote + 0;
+                    }
+                    if (coverage == "Full Coverage || full coverage || full")
+                    {
+                        newQuote = (newQuote + (newQuote * 50 / 100));
+                    }
+                    else
+                    {
+                        newQuote = newQuote + 0;
+                    }
+
                     SqlCommand command = new SqlCommand(queryString, connection);
                     command.Parameters.Add("@FirstName", SqlDbType.VarChar);
                     command.Parameters.Add("@LastName", SqlDbType.VarChar);
@@ -92,6 +147,7 @@ namespace MVC_Practical.Controllers
                     quote.FirstName = reader["FirstName"].ToString();
                     quote.LastName = reader["LastName"].ToString();
                     quote.EmailAddress = reader["EmailAddress"].ToString();
+                    quote.NewQuote = Convert.ToInt32(reader["NewQuote"]);
                     quotes.Add(quote);
                 }
             }
