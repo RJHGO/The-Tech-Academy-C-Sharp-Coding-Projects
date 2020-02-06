@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MVC_Practical.Controllers
@@ -18,6 +16,9 @@ namespace MVC_Practical.Controllers
         {
             return View();
         }
+
+
+
         [HttpPost]
         public ActionResult InsuranceQuote(string firstName, string lastName, string emailAddress, string dateOfBirth,
             string carYear, string carMake, string carModel, string Dui, string speedingTickets, string coverage)
@@ -91,7 +92,6 @@ namespace MVC_Practical.Controllers
                     quote.FirstName = reader["FirstName"].ToString();
                     quote.LastName = reader["LastName"].ToString();
                     quote.EmailAddress = reader["EmailAddress"].ToString();
-                    quote.NewQuote = Convert.ToInt32(reader["NewQuote"]);
                     quotes.Add(quote);
                 }
             }
@@ -109,83 +109,86 @@ namespace MVC_Practical.Controllers
 
 
 
-        public ActionResult User()
+        public new ActionResult User
         {
-            
+            get
             {
-                string queryString = @"SELECT NewQuote from InsuranceQuote";
-                List<NewInsuranceQuote> quotes = new List<NewInsuranceQuote>();
 
-                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    SqlCommand command = new SqlCommand(queryString, connection);
+                    string queryString = @"SELECT NewQuote from InsuranceQuote";
+                    List<NewInsuranceQuote> quotes = new List<NewInsuranceQuote>();
 
-                    connection.Open();
-
-                    SqlDataReader reader = command.ExecuteReader();
-
-
-
-                    while (reader.Read())
+                    using (SqlConnection connection = new SqlConnection(connectionString))
                     {
-                        var quote = new NewInsuranceQuote();
-                        //quote.Id = Convert.ToInt32(reader["Id"]);
-                       // quote.NewQuote = Convert.ToInt32(reader["NewQuote"]);
-                        new List<NewInsuranceQuote>().Add(quote);
+                        SqlCommand command = new SqlCommand(queryString, connection);
 
-                        newQuote = 50;
-                        var Now = DateTime.Today;
-                        var UserAge = Now.Year - dateOfBirth.Year;
-                        if (dateOfBirth > Now.AddYears(-25))
+                        connection.Open();
+
+                        SqlDataReader reader = command.ExecuteReader();
+
+
+
+                        while (reader.Read())
                         {
-                            newQuote = newQuote + 25;
+                            var quote = new NewInsuranceQuote();
+                            //quote.Id = Convert.ToInt32(reader["Id"]);
+                            // quote.NewQuote = Convert.ToInt32(reader["NewQuote"]);
+                            new List<NewInsuranceQuote>().Add(quote);
+
+                            newQuote = 50;
+                            var Now = DateTime.Today;
+                            var UserAge = Now.Year - dateOfBirth.Year;
+                            if (dateOfBirth > Now.AddYears(-25))
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            else if (dateOfBirth > Now.AddYears(-18))
+                            {
+                                newQuote = newQuote + 100;
+                            }
+                            else if (dateOfBirth > Now.AddYears(-100))
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            if (carYear < 2000)
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            else if (carYear > 2015)
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            if (carMake == "Porche")
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            if (carMake == "Porche" && carModel == "911 Carrera")
+                            {
+                                newQuote = newQuote + 25;
+                            }
+                            if (speedingTickets > 0)
+                            {
+                                newQuote = newQuote + 10 * speedingTickets;
+                            }
+                            if (Dui == "yes")
+                            {
+                                newQuote = newQuote * (25 / 100);
+                            }
+                            else
+                            {
+                                newQuote = newQuote + 0;
+                            }
+                            if (coverage == "Full Coverage || full coverage || full")
+                            {
+                                newQuote = newQuote * (50 / 100);
+                            }
+                            else
+                            {
+                                newQuote = newQuote + 0;
+                            }
                         }
-                        else if (dateOfBirth > Now.AddYears(-18))
-                        {
-                            newQuote = newQuote + 100;
-                        }
-                        else if (dateOfBirth > Now.AddYears(-100))
-                        {
-                            newQuote = newQuote + 25;
-                        }
-                        if (carYear < 2000)
-                        {
-                            newQuote = newQuote + 25;
-                        }
-                        else if (carYear > 2015)
-                        {
-                            newQuote = newQuote + 25;
-                        }
-                        if (carMake == "Porche")
-                        {
-                            newQuote = newQuote + 25;
-                        }
-                        if (carMake == "Porche" && carModel == "911 Carrera")
-                        {
-                            newQuote = newQuote + 25;
-                        }
-                        if (speedingTickets > 0)
-                        {
-                            newQuote = newQuote + 10 * speedingTickets;
-                        }
-                        if (Dui == "yes")
-                        {
-                            newQuote = newQuote * (25 / 100);
-                        }
-                        else
-                        {
-                            newQuote = newQuote + 0;
-                        }
-                        if (coverage == "Full Coverage || full coverage || full")
-                        {
-                            newQuote = newQuote * (50 / 100);
-                        }
-                        else
-                        {
-                            newQuote = newQuote + 0;
-                        }
+                        return View(newQuote);
                     }
-                    return View(newQuote);
                 }
             }
         }
